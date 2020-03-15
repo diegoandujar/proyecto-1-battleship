@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from random import randint
 
 class barcos():
@@ -667,7 +667,7 @@ main()
 
 
 ###########################################################
-=======
+
 from usuario import usuario
 
 
