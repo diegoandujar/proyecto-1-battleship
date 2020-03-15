@@ -332,7 +332,7 @@ def juego():
     """  
     tableros(tablero)
     ubicar_todo()
-    print(lista_final)
+    #print(lista_final)
     tiros()
 
 
