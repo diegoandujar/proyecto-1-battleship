@@ -151,13 +151,13 @@ def tiros():
         zona_de_tiros.append(coordenadas)
         print(turn)
     if tiritos==9:
-        print("---Marico eres arrechisimo---\n")  
+        print("---¿Eres un Robot? lo que acabas de hacer es poco probable ....---\n")  
     elif tiritos>9 and tiritos<45:
-        print("---coye, bien bro---\n")
+        print("---Excelente Estrategia---\n")
     elif tiritos>44 and tiritos<70:
-        print("---Mira bro, hay que mejorar---\n")
+        print("---Buena Estrategia; pero hay que mejorar---\n")
     elif tiritos>70:
-        print("---papi, eres una mierda---\n")
+        print("---Considérese Perdedor, tiene que mejorar notablemente---\n")
           
     print("tiros efectuados: ",tiritos)
     print("tiros repetidos: ",tiros_repetidos)
@@ -620,6 +620,9 @@ def main():
     """
     print("-"*50,"Bienvenido a Battleship","-"*50)
     menu = input("\nque deseas hacer\njugar ---> 1\nmodificar ---> 2\nPromedios ---> 3\nTop 10 ---> 4\n ")
+    while menu!="1" and menu!="2" and menu!="3" and menu!="4":
+        print("---Solo pueden ser los numeros 1, 2, 3 y 4---")
+        menu = input("\nque deseas hacer\njugar ---> 1\nmodificar ---> 2\nPromedios ---> 3\nTop 10 ---> 4\n ")
     seguir = True
     while seguir:
         if menu=="1":
