@@ -72,8 +72,8 @@ def tiros():
     tiritos = 0
     tiros_repetidos = 0
     zona_de_tiros = []
-    for x in lista_final:
-        tablero[x[0]][x[1]]= "B"
+    #for x in lista_final:
+        #tablero[x[0]][x[1]]= "B"
     while len(lista_final)>0:
         turn = turn + 1 
         while True:
