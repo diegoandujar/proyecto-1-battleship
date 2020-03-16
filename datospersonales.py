@@ -628,6 +628,10 @@ def main():
         if menu=="1":
             datos_jugador()
             juego()
+            print(lista_final)
+            print(buquesito.caract)
+            print(buque_grande.caract)
+            print(submarino.caract)
             print(usuario_en_uso)
             if user not in usuarios:
                 usuario_en_uso.append(tiritos)
