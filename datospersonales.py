@@ -91,10 +91,10 @@ def tiros():
                     raise ValueError 
                 break
             except ValueError:
-                print("---eso no es un numero")
+                print("---eso no es un numero---")
         coordenadas = (row,col)
         while row>9 or row<0 or col>9 or col<0:
-            print("---eso no se encuentra en el campo")
+            print("---eso no se encuentra en el campo---")
             while True:
                 try:
                     row = int(input("Guess Row:"))
@@ -143,7 +143,7 @@ def tiros():
             tablero[row][col] = "F"
             puntos = puntos + 10 
         elif coordenadas not in lista_final:
-            print("\nMission failed, we'll get it next time")
+            print("\n---Mission failed, we'll get it next time---")
             tablero[row][col] = "X"
             tiritos = tiritos + 1
             puntos = puntos - 2 
