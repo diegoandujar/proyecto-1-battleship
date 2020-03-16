@@ -358,7 +358,7 @@ def datos_jugador():
                 usuarios.append(usuario[0])
                 datosssss.append(usuario)
             if user in usuarios:
-                print("bienvenido de vuelta {}".format(x[0]))
+                print("---bienvenido de vuelta---")
                 for x in datosssss:
                     if user == x[0]:
                         user = x[0]
